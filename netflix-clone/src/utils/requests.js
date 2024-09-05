@@ -1,4 +1,5 @@
-const API_KEY = "e48b1722d68d46e5996e073679a7a0f0";
+const API_KEY = process.env.REACT_APP_API_KEY
+//"e48b1722d68d46e5996e073679a7a0f0";
 // https://api.themoviedb.org/3/movie/550?api_key=e48b1722d68d46e5996e073679a7a0f0
 
 const requests = {
