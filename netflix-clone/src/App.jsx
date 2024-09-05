@@ -1,17 +1,17 @@
 import { useState } from 'react'
-
 import './App.css'
+import Home from './Home/Home';
 
 function App() {
-
+  const [count, setCount] = useState(0)
 
   return (
     <>
-  
-    <div>Hello</div>
-    <h2>This is Netflix Project that</h2>
+      <div className="App">
+       <Home/>
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App
