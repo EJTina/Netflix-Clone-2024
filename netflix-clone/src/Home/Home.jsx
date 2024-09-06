@@ -8,8 +8,9 @@ const Home = () => {
 
     <>
 <Header/>
-<Footer/>
 <Banner/>
+<Footer/>
+
     </>
 )
 }
